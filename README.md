@@ -18,8 +18,8 @@ This define a set of characteristic curves that relates total amount of petty cr
 Running the code
 ===============
 If you can't wait and you want to stop crime right now simply open a terminal, run 
+```bash master_script.sh```
 
-bash master_script.sh
 
 and see the magic happen.
 Only php is needed.

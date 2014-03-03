@@ -21,7 +21,7 @@ for crime in `cat crime-list`
  do
  echo $crime
  php crime-co-occurence_one_to_fews.php $input_file $crime > temp_out
- gnuplot -e "crime='$crime'; filename ='temp_out'" crime-co-occurence.plot > results_one_to_few/$crime.eps
+ #gnuplot -e "crime='$crime'; filename ='temp_out'" crime-co-occurence.plot > results_one_to_few/$crime.eps
 done
 
 

@@ -1,4 +1,3 @@
-
 The project is based on Westminster crime data, 
 located here 'data/crime_timestamp_lsoa_type.csv'
 It can be easily extended to the entire metropolitan police crime data, 
@@ -22,6 +21,9 @@ The .csv files contains the LSOA area-code in the first column and the strings g
 'Red' means that in the corresponding LSOA patch there is an amount of small crime that is over the threshold above which you expect a lot of dangerous crimes.
 Petty crime threshold for each crime have been selected manually from the files in 'results_one_to_few/' folder
 Hence 'Reds' are the risky areas where you would expect to find big criminality.
+
+You can then use the .cvs files in the folder 'over_treshold/' to do your own visualisation or you can use our visualisation tool.
+
 
 Technical stuffs:
 The pre-analysis code uses php scripts for the data manipulation, gnuplot (optional) for same visualisation testing and a bash script.

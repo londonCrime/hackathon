@@ -1,11 +1,11 @@
 Data description
 ===============
-The project is based on Westminster crime data, 
-located here 'data/crime_timestamp_lsoa_type.csv'
-It can be easily extended to the entire metropolitan police crime data, 
-located here 'data/reduced_dataset_greater_london.csv'
+The project is based on Westminster crime data, located here 
+  - 'data/crime_timestamp_lsoa_type.csv'
+It can be easily extended to the entire metropolitan police crime data, located here 
+  - 'data/reduced_dataset_greater_london.csv'
 
-Data description
+Code aim
 ===============
 The code aim is to monitor the occurrence of dangerous crime by 
 analysing (and visualising) the amount of petty crimes.

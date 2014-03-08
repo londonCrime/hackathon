@@ -33,10 +33,8 @@ The .csv files contains the LSOA area-code in the first column and the strings g
 Petty crime threshold for each crime have been selected manually from the files in 'results_one_to_few/' folder
 Hence 'Reds' are the risky areas where you would expect to find big criminality.
 
-You can then use the .cvs files in the folder 'over_treshold/' to do your own visualisation or you can use our visualisation tool available here:
-
-https://github.com/jh41/london_crime_maps
-
+You can then use the .cvs files in the folder 'over_treshold/' to do your own visualisation or just open map.html.
+You can see the demo running with Crosslet [here]:
 
 Technical stuffs:
 The pre-analysis code uses php scripts for the data manipulation, gnuplot (optional) for same visualisation testing and a bash script.
@@ -44,3 +42,5 @@ The output .csv files created in 'over_treshold/' folder are then used in the py
 
 TODOs:
 one should normalise for cell size and the time for the observation so that all cells, and all observations are compatible between them.
+
+[here] : http://tekja.com/dev/urbanDataHack/map.html

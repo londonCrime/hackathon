@@ -43,4 +43,4 @@ The output .csv files created in 'over_treshold/' folder are then used in the py
 TODOs:
 one should normalise for cell size and the time for the observation so that all cells, and all observations are compatible between them.
 
-[here] : http://tekja.com/dev/urbanDataHack/map.html
+[here]:http://tekja.com/dev/urbanDataHack/map.html

@@ -41,7 +41,10 @@ foreach ($lines as $line) {
 	$data = explode(',',$line);
 	$site_id = $data[0];	
 	$crime_type = $data[1];
-	$all_crimes[$site_id][$crime_type] += 1 ;
+	if (isset($all_crimes[$site_id][$crime_type]))
+		$all_crimes[$site_id][$crime_type]  = 1;
+	else
+		$all_crimes[$site_id][$crime_type] += 1 ;
 }
 
 
